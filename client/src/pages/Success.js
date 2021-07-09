@@ -6,10 +6,6 @@ import { idbPromise } from '../utils/helpers';
 
 
 
-
-
-   
-
 function Success() {
     const [addOrder] = useMutation(ADD_ORDER);
 
