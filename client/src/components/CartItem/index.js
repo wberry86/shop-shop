@@ -66,3 +66,6 @@ const onChange = (e) => {
 }
 
 export default CartItem;
+
+
+

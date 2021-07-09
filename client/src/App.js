@@ -7,6 +7,7 @@ import {
   createHttpLink,
 } from '@apollo/client';
 import { setContext } from '@apollo/client/link/context';
+import Success from './pages/Success';
 
 import Home from './pages/Home';
 import Detail from './pages/Detail';
@@ -49,6 +50,7 @@ function App() {
             <Route exact path="/signup" component={Signup} />
             <Route exact path="/orderHistory" component={OrderHistory} />
             <Route exact path="/products/:id" component={Detail} />
+            <Route exact path="/success" component={Success} />
             <Route component={NoMatch} />
           </Switch>
           </StoreProvider>
